@@ -8,4 +8,5 @@
 /dataSources.local.xml
 # unsignificant folders
 .idea
-/target/
+/target/classes/
+/target/test-classes/
