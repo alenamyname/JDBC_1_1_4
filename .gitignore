@@ -7,7 +7,7 @@
 /dataSources/
 /dataSources.local.xml
 # unsignificant folders
-/target/
+target
 .idea
 
 
