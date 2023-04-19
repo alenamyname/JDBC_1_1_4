@@ -13,10 +13,9 @@ public class Util {
     public static Connection getConnection() {
         Connection connection = null;
         try {
-            //Class.forName(DB_DRIVER);
             connection = DriverManager.getConnection(DB_URL, DB_USERNAME, DB_PASSWORD);
             connection.setAutoCommit(false);
-            System.out.println("ok");
+            //System.out.println("ok");
         } catch (SQLException e) {
             e.printStackTrace();
             System.out.println("not ok");
