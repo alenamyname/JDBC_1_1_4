@@ -51,7 +51,7 @@ public class UserDaoJDBCImpl implements UserDao {
             statement.executeUpdate();
 
             connection.commit();
-            System.out.println("User " + name + " " + lastName + " " + age + " " + "добавлен");
+            System.out.println(name + " " + lastName + " " + age + " " + "добавлен");
         } catch (SQLException e) {
             e.printStackTrace();
             try {
